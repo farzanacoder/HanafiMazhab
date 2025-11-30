@@ -1,9 +1,19 @@
 import React from 'react'
+import ArticleCompo from '@/app/components/About/ArticleCompo'
 
 export default function page() {
   return (
-    <div className='bg-blue-300 text-9xl uppercase text-black p-4 flex justify-center items-center h-screen'>
-        home page
-    </div>
+    <section className='bg-white'>
+      <div className="flex">
+        <ArticleCompo />
+        <ArticleCompo />
+        <ArticleCompo />
+        <ArticleCompo />
+      </div>
+
+      <div className='container'>
+
+      </div>
+    </section>
   )
 }

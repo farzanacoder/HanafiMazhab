@@ -3,15 +3,16 @@ import React from "react";
 import { FaSearch } from "react-icons/fa";
 import List from "../Common/List";
 import { IoIosArrowDown } from "react-icons/io";
+import Link from "next/link";
 
 
 export default function Nav() {
   return (
     <section className="bg-[#000000]">
       <div className=" container flex lg:flex-row flex-col items-center justify-between">
-        <div>
-          <Image src={"/images/logo.jpg"} height={200} width={349} alt="logo" />
-        </div>
+        <Link href={'/'} className="w-[300px]">
+          <Image src={"/images/Logo.png"} height={150} width={300} alt="logo" />
+        </Link>
 
         <ul className="flex space-x-6 text-white justify-center">
           <List list="মূলপাতা" />
