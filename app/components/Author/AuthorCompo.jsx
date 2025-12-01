@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { HiOutlinePencilSquare } from "react-icons/hi2";
+import AuthorHead from "@/app/components/Author/AuthorHead"; 
 
 const authorsData = [
   "মাওলানা মুহাম্মাদ ইয়াইয়া",
@@ -30,33 +31,9 @@ export default function AuthorCompo() {
 
   return (
     <section className="relative">
-      {/* Banner */}
-      <div className="relative w-full h-[150px] flex">
-        <Image
-          src="/images/banner.png"
-          alt="banner"
-          fill
-          className="object-cover"
-        />
 
-        {/* Title + golden underline */}
-        <div className="absolute left-45 bottom-6">
-          <h1 className="text-3xl font-bold text-white">লেখকবৃন্দ</h1>
-          <div className="w-100 h-[1px] bg-[#d2973b] mt-2"></div>
-        </div>
-
-        {/* Mosque Icon UNDER the title line */}
-        <div className="absolute left-[519px] bottom-[25px]">
-          <Image
-            src="https://www.alkawsar.com/static/lynx/images/mosque.svg"
-            alt="mosque"
-            width={70}
-            height={50}
-          />
-        </div>
-      </div>
-
-
+      {/* 🔥 Reusable Header Component */}
+      <AuthorHead title="লেখকবৃন্দ" />
 
       <div className="container mx-auto py-16">
         <h2 className="text-xl font-bold mb-6">যাঁরা নিয়মিত লিখে থাকেন:</h2>
@@ -75,7 +52,7 @@ export default function AuthorCompo() {
         </ul>
 
         {/* Pagination */}
-        <div className="flex gap-2 mt-6 justify-center items-center">
+        <div className="flex gap-2 mt-16 items-center">
           <button
             onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
             disabled={currentPage === 1}
