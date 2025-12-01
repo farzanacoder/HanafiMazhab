@@ -1,12 +1,25 @@
 import React from 'react'
 import Button from '../Common/Button'
 
-export default function ArticleCompo() {
+export default function ArticleCompo({ heading, para, butn }) {
   return (
-    <div className='border w-[25%] mb-16 p-7'>
-        <Button btn='সম্পাদকীয়' className='my-7'/>
-        <h1 className='lg:text-2xl text-base text-black cursor-pointer duration-200 hover:text-amber-500'>পাক-আফগান সীমান্ত সংঘর্ষ ‖ এখনই বন্ধ করুন, আলোচনায় বসুন</h1>
-        <p className='text-[12px] my-7 lg:text-sm text-gray-500 cursor-pointer'>আমাদের মুসলমানদের ইজতেমায়ী পাপ ও ইসলামের শিক্ষা ভুলে যাওয়ার পরিণামস্বরূপ উম্মতে মুসলিমার দুর্দশা যেন থামার নামই নিচ্ছে না। দীর্ঘ দুই বছর পর মধ্যপ্রাচ্য থেকে যে সামান্য একটু স্বস্তির সংবাদ এসেছে, এরই মধ্যে দুটি ভ্র…</p>
+<div className='border-t border-l border-b border-gray-200 hover:bg-[#f8f8f8] duration-300 w-[25%] mb-16 p-7'>
+
+      {
+        butn ? (
+          <Button btn={butn} className="my-7" />
+        ) : (
+          <div className="my-7 h-[40px]" /> 
+        )
+      }
+
+      <h1 className='lg:text-2xl text-base text-black cursor-pointer duration-200 hover:text-amber-500'>
+        {heading}
+      </h1>
+
+      <p className='text-[12px] my-7 lg:text-sm text-gray-500 cursor-pointer'>
+        {para}
+      </p>
     </div>
   )
 }
