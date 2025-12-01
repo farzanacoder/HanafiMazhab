@@ -26,7 +26,12 @@ export default function Nav() {
         <div className="hover:text-amber-500 active:scale-[1.1] text-2xl cursor-pointer text-white">
           <FaSearch />
         </div>
+        
       </div>
     </section>
   );
+
+
 }
+// প্রশ্ন করুন প্রশ্নোত্তর প্রবন্ধ নিবন্ধ অডিও ভিডিও কিতাব প্রকাশিত বই বিভাগসমূহ দ্বীনী খিদমায় অংশ নিন বিজ্ঞাপন সংক্রান্ত লক্ষ্য ও উদ্দেশ্য
+// প্রশ্নোত্তর
