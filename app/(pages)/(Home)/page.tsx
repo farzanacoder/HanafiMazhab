@@ -36,14 +36,14 @@ export default function page() {
         <div className='w-[30%] border-l border-gray-200 pl-5'>
           <MosqueDesign />
           <div className='w-[50%] '>
-            <Image src={'/images/cover.jpg'} width={200} height={300} />
+            <Image alt='img' src={'/images/cover.jpg'} width={200} height={300} />
           </div>
 
           <div className='w-full h-fit mt-14'>
-            <Image src={'/images/cover1.png'} width={500} height={200} />
+            <Image alt='img' src={'/images/cover1.png'} width={500} height={200} />
           </div>
           <div className='w-full h-fit my-7'>
-            <Image src={'/images/cover1.png'} width={500} height={200} />
+            <Image alt='img' src={'/images/cover1.png'} width={500} height={200} />
           </div>
 
           <MosqueDesign />
@@ -54,7 +54,7 @@ export default function page() {
           <Button btn={'আরও »'} className={'bg-green-950 text-white py-3 px-7 text-lg mb-7 rounded-sm'} />
           <MosqueDesign />
           <div className='w-full h-fit my-7'>
-            <Image src={'/images/cover1.png'} width={500} height={200} />
+            <Image alt='img' src={'/images/cover1.png'} width={500} height={200} />
           </div>
 
           <BtnCompo/>

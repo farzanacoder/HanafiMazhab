@@ -38,22 +38,22 @@ export default function BtnCompo() {
            
            <div className="flex flex-wrap gap-4 mb-60" >
              <div className='w-[30%] '>
-                <Image src={'/images/cover.jpg'} width={200} height={300} />
+                <Image alt='img' src={'/images/cover.jpg'} width={200} height={300} />
             </div>
               <div className='w-[30%] '>
-                <Image src={'/images/cover.jpg'} width={200} height={300} />
+                <Image alt='img' src={'/images/cover.jpg'} width={200} height={300} />
             </div>
               <div className='w-[30%] '>
-                <Image src={'/images/cover.jpg'} width={200} height={300} />
+                <Image alt='img' src={'/images/cover.jpg'} width={200} height={300} />
             </div>
               <div className='w-[30%] '>
-                <Image src={'/images/cover.jpg'} width={200} height={300} />
+                <Image alt='img' src={'/images/cover.jpg'} width={200} height={300} />
             </div>
             <div className='w-[30%] '>
-                <Image src={'/images/cover.jpg'} width={200} height={300} />
+                <Image alt='img' src={'/images/cover.jpg'} width={200} height={300} />
             </div>
             <div className='w-[30%] '>
-                <Image src={'/images/cover.jpg'} width={200} height={300} />
+                <Image alt='img' src={'/images/cover.jpg'} width={200} height={300} />
             </div>
            </div>
         </>
