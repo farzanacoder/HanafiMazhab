@@ -3,7 +3,7 @@ import React from "react";
 
 export default function page() {
   return (
-    <section className="bg-[#000000]">
+    <section className="bg-[#0b1220]">
       <div className="flex items-center relative justify-between text-[#bdc3cb] py-7 text-sm container">
         <div className="lg:text-base text-sm ">
           <p className="mb-2">

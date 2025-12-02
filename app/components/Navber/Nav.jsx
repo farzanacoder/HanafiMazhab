@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <section className="bg-[#000000]">
+    <section className="bg-[#0b1220]">
       <div className="container flex lg:flex-row flex-col items-center justify-between">
         
         {/* Logo */}
