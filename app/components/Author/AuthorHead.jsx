@@ -21,7 +21,7 @@ export default function AuthorHead({ title }) {
       </div>
 
       {/* Mosque Icon */}
-        <div className="absolute left-[290px] lg:left-[339px] bottom-[25px]">
+        <div className="absolute left-[290px] lg:left-[275px] bottom-[25px]">
         <Image
           src="https://www.alkawsar.com/static/lynx/images/mosque.svg"
           alt="mosque"

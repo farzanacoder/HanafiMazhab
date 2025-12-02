@@ -13,7 +13,7 @@ export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <section className="bg-[#0b1220] fixed top-0 left-0 w-full z-50 shadow-md">
+    <section className="bg-[#0b1220] fixed top-0 left-0 mb-[100px] w-full z-50 shadow-md">
       <div className="container mx-auto flex items-center justify-between px-4 py-4 lg:py-5 relative">
 
         {/* Left: Mobile Menu Icon */}
