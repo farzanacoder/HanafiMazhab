@@ -2,8 +2,9 @@
 import { Noto_Sans_Bengali } from 'next/font/google'; 
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from '@/app/(pages)/Header/page.tsx';
-import Footer from '@/app/(pages)/Footer/page.tsx';
+import Nav from './components/Navber/Nav';
+import FooterPage from './components/Navber/FooterPage';
+
 
 const notoBengali = Noto_Sans_Bengali({ subsets: ['bengali'], weight: ['400','700'] });
 
@@ -21,9 +22,9 @@ export default function RootLayout({
   return (
     <html lang="bn" className={notoBengali.className}>  
       <body>
-        <Header />
+        <Nav />
         {children}
-        <Footer />
+        <FooterPage />
       </body>
     </html>
   );
