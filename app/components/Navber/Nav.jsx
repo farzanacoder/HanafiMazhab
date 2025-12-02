@@ -72,7 +72,7 @@ export default function Nav() {
               >
                 <div className="flex justify-between items-center mb-6">
                   <Link href="/">
-                    <Image src="/images/Logo.png" width={150} height={50} alt="logo" />
+                    <Image onClick={() => setMenuOpen(false)} src="/images/Logo.png" width={150} height={50} alt="logo" />
                   </Link>
                   <RxCross2
                     onClick={() => setMenuOpen(false)}

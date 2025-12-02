@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function AuthorHead({ title }) {
   return (
-    <div className="relative w-full h-[150px] flex">
+    <div className="relative w-full mt-0 lg:mt-[100px] h-[150px] flex">
       <Image
         src="/images/banner.png"
         alt="banner"
