@@ -1,5 +1,4 @@
 import React from 'react'
-import MosqueDesign from '../Common/MosqueDesign'
 import { IoIosArrowForward } from 'react-icons/io'
 
 export default function AboutList() {
