@@ -35,7 +35,7 @@ export default function page() {
 
       
       {/* ------------ 3 COLUMN LAYOUT (Fully responsive) ------------ */}
-      <div className="container flex flex-wrap gap-7 mt-10">
+      <div className="container flex lg:flex-row flex-col gap-7 mt-10">
         {/* Column 1 */}
         <div className="w-full md:w-1/2 lg:w-1/3 lg:my-0 my-16">
           <MosqueDesign />
@@ -53,7 +53,7 @@ export default function page() {
         </div>
 
         {/* Column 3 */}
-        <div className="w-full md:w-1/2 lg:w-1/3 border-l border-gray-200 pl-5">
+        <div className="w-full md:w-1/2 lg:w-1/3 border-none lg:border-l lg:border-gray-200 lg:pl-5">
           <MosqueDesign />
 
           <div className="w-[50%] my-5">
