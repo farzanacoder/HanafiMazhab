@@ -6,7 +6,7 @@ export default function FooterPage() {
     <section className="bg-[#0b1220]">
       <div className="flex items-center relative justify-between text-[#bdc3cb] py-7 text-sm container">
         <div className="lg:text-base text-sm ">
-          <p className="mb-2">
+          <p className="mb-3">
             কপিরাইট © ২০২৪ মাসিক আলকাউসার । সম্পাদক ও প্রকাশক: আবুল হাসান
             মুহাম্মাদ আবদুল্লাহ । সর্বস্বত্ব সংরক্ষিত ।
           </p>
@@ -21,7 +21,7 @@ export default function FooterPage() {
           height={50}
           alt="footer"
           width={170}
-          className="absolute right-0 bottom-0"
+          className="absolute hidden lg:flex right-0 bottom-0"
         />
       </div>
     </section>
