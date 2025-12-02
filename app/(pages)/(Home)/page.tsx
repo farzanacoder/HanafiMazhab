@@ -32,10 +32,12 @@ export default function page() {
           butn={""}
         />
       </div>
+
+      
       {/* ------------ 3 COLUMN LAYOUT (Fully responsive) ------------ */}
       <div className="container flex flex-wrap gap-7 mt-10">
         {/* Column 1 */}
-        <div className="w-full md:w-1/2 lg:w-1/3">
+        <div className="w-full md:w-1/2 lg:w-1/3 lg:my-0 my-16">
           <MosqueDesign />
           <AboutCompo />
           <AboutCompo />
